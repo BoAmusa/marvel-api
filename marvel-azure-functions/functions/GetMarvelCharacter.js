@@ -32,7 +32,12 @@ app.http("GetMarvelCharacter", {
     context.log(`🌐 Fetching from Marvel API: ${url}`);
 
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
       context.log(`📡 Marvel API response status: ${response.status}`);
 
       const data = await response.json();
