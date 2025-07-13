@@ -1,0 +1,22 @@
+{
+  "name": "marvel-azure-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions project for fetching Marvel characters from the Marvel API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "build": "func pack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@azure/functions": "^3.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
+}
