@@ -1,7 +1,6 @@
 {
   "name": "marvel-azure-functions",
   "version": "1.0.0",
-  "type": "module",
   "description": "Azure Functions project for fetching Marvel characters from the Marvel API.",
   "scripts": {
     "start": "func start",
@@ -11,7 +10,7 @@
   "dependencies": {
     "@azure/functions": "^4.7.2",
     "md5": "^2.3.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   },
   "engines": {
     "node": "18.x"
