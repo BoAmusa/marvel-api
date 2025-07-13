@@ -2,6 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "MARVEL_PUBLIC_KEY": "57676909a19ce0ebd452080cbe7e9da2",
-    "MARVEL_PRIVATE_KEY": "fb577f5aad7f2a537bd058735a04984d19dab084"
-  }
+    "MARVEL_PRIVATE_KEY": "fb577f5aad7f2a537bd058735a04984d19dab084",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  },
+  "ConnectionStrings": {}
 }
