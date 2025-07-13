@@ -5,7 +5,7 @@ import md5 from "md5";
 
 app.http("GetMarvelCharacter", {
   methods: ["GET"],
-  authLevel: "function",
+  authLevel: "anonymous",
   handler: async (request, context) => {
     const publicKey = process.env.MARVEL_PUBLIC_KEY;
     const privateKey = process.env.MARVEL_PRIVATE_KEY;
